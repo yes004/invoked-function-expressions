@@ -1,4 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const randomString = () => Math.random().toString(36).slice(2);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log( "A" - "B" + "2");
+var DELIM_SIZE = 4;
