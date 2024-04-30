@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log( "A" - "B" + "2");
