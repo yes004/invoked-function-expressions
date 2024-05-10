@@ -1,2 +1,3 @@
-console.log(typeof typeof 1);
-[foo, bar] = [bar, foo];
+console.log(+"1" +  "1" + "2");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const merge = [...new Set([...a, ...b])];
