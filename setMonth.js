@@ -1,2 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const isTabInView = () => !document.hidden;
+const arrayContains = (arr, element) => arr.includes(element);
+console.log(1 +  -"1" + "2");
+const channel = getChannel(computedAppVersion);
