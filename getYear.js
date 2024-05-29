@@ -1,2 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-var arr2 = arr1.reverse();
+const lastElement = arr => arr[arr.length - 1];
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
