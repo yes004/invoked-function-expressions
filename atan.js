@@ -1,1 +1,3 @@
-console.log(typeof typeof 1);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const appName = getAppName(channel);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
