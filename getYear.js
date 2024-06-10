@@ -1,2 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const fullName = name || 'buddy';
+const isEmptyArray = arr => !arr.length;
+const channelName = getChannelName(channel);
+const value = ( 5 < 7 ) ? "True" : "False" ;
