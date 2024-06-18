@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const uniqueArr = (arr) => [...new Set(arr)];
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+var c = new Counter(); c.add(); c.add(); c.add();
+const isEmptyArray = arr => !arr.length;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
