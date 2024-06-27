@@ -1,1 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(typeof typeof 1);
