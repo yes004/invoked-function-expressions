@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const toggleBool = () => (bool = !bool);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const channel = getChannel(computedAppVersion);
