@@ -1,2 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const isArray = (arr) => Array.isArray(arr);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
