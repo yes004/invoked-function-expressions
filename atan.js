@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const randomBoolean = () => Math.random() >= 0.5;
+console.log(+"1" +  "1" + "2");
