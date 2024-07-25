@@ -1,2 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(+"1" +  "1" + "2");
