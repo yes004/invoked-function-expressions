@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const currentDate = () => new Date().toLocaleDateString('en-US');
-console.log(+"1" +  "1" + "2");
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const lastElement = arr => arr[arr.length - 1];
