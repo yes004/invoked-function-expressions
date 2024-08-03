@@ -1,2 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const lastElement = arr => arr[arr.length - 1];
+const removeDuplicates = (arr) => [...new Set(arr)];
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
